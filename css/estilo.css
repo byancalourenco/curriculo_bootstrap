@@ -1,0 +1,50 @@
+body{
+    background-color: #ffffff;
+    font-family: "SUSE", sans-serif;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: rgb(98, 190, 160);
+}
+
+.nav{
+    background-color: rgb(236, 236, 236);
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+
+.ola{
+    font-size: 50px;
+}
+
+.bem_vindo{
+    font-size: 20px;
+}
+
+.textos_cmc{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.card-title{
+    margin-top: 20%;
+    font-size: 70px;
+}
+
+.card-text{
+    font-size: 20px ;
+}
+
+
