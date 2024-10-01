@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Meu currículo!</title>
+    <title>Portifólio - Byanca Lourenço</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
   </head>
   <body>
+
     <header>
 
       <ul class="nav justify-content-end">
@@ -18,13 +19,13 @@
           <a class="nav-link active" href="#sobre">Sobre mim</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Habilidades</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" href="#">Qualificações</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Serviços</a>
+          <a class="nav-link active" href="#">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Certificados</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#">Portifólio</a>
@@ -33,218 +34,313 @@
           <a class="nav-link active" href="#">Contato</a>
         </li>
       </ul>
+
     </header>
+
     <main>
 
-      <section>
+        <section>
+            <h1 class="titulo_ola">Olá, eu sou a Byanca Lourenço</h1>
+            <p class="bem_vindo"><span>Bem vindo(a) ao meu portifólio!</span></p>
+            <img class="img1" src="img/img1.png" alt="">
+        </section>
 
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="img/foto_inicio.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h1 class="card-title">Olá, eu sou a Byanca</h1>
-                <p class="card-text">Bem-vindo(a) ao meu portifólio!</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <section>
+            <h1 class="titulo">Sobre mim</h1>
 
-      </section>
+            
+            <p>
+                Me chamo Byanca Lourenço Souza, possuo 15 anos, resido no município de Mauá, São Paulo.
+                Sou estudante da ETEC Professora Maria Cristina Medeiro. Faço ensino médio com curso técnico integrado de informática para internet. No momento estou aprendendo e procurando aprimorar meus conhecimentos em HTML, CSS e Python.
+                Faço curso de inglês na escola de idiomas Wizard há dois anos, e continuo me aprofundando no idioma.
+            </p>
 
-      <section id="sobre" class="sobre_mim">
+            <p>
+                Apaixonada por criar artes digitais, como apresentações no Powerpoint e Canva, edições de vídeos, entre outros.
+                Ao longo de minhas experiências desenvolvi qualidades como a criatividade, facilidade de trabalho em equipe, proatividade, respeito a prazos, inteligência emocional, capacidade de adaptação.
+                Estou entusiasmada com a oportunidade de trazer minha experiência e habilidades para o mercado de trabalho!
+            </p>
+        </section>
 
-        <h1 class="titulo">Sobre mim!</h1>
+        <section>
+            <h1 class="titulo">Qualificações</h1>
 
-        <p>
-          Me chamo Byanca Lourenço Souza, possuo 15 anos, resido no município de Mauá, São Paulo.
-          Sou estudante da ETEC Professora Maria Cristina Medeiro. Faço ensino médio com curso técnico integrado de informática para internet. No momento estou aprendendo e procurando aprimorar meus conhecimentos em HTML, CSS e Python.
-          Faço curso de inglês na escola de idiomas Wizard há dois anos, e continuo me aprofundando no idioma.
-        </p>
-
-        <p>
-          Apaixonada por criar artes digitais, como apresentações no Powerpoint e Canva, edições de vídeos, entre outros.
-          Ao longo de minhas experiências desenvolvi qualidades como a criatividade, facilidade de trabalho em equipe, proatividade, respeito a prazos, inteligência emocional, capacidade de adaptação.
-          Estou entusiasmada com a oportunidade de trazer minha experiência e habilidades para o mercado de trabalho!
-        </p>
-
-      </section>
+            <div class="timeline">
+                <ul>
+                    <li>
       
-      <sections class="qualificacoes">
+                        <div class="content">
+      
+                            <h3>Colégio Raios de Sol</h3>
+                            <p>
+                                Concluí o ensino fundamental, etapa importante da minha formação, onde adquiri uma base sólida de conhecimentos que agora me ajudam na continuidade dos meus estudos. 
+                            </p> 
+      
+                        </div>
+                        <div class="time">
+                            <h4>2016 - 2023 </h4>
+                        </div>
+                    </li>
+      
+                    <li>
+      
+                        <div class="content">
+      
+                            <h3>ETEC Professora Maria Cristina Medeiros</h3>
+                            <p>
+                                Neste momento, estou no processo de conclusão do ensino médio, dedicando-me aos estudos e adquirindo conhecimentos que serão fundamentais para o meu desenvolvimento acadêmico e futuro profissional
+                            </p> 
+      
+                        </div>
+                        <div class="time">
+                            <h4>2024 - 2026</h4>
+                        </div>
+                    </li>
+    
+                    <div style="clear: both;"></div>
+                </ul>
+            </div>
 
-        <h1 class="titulo">Qualificações</h1>
+        </section>
 
-        <div class="timeline">
-          <ul>
-              <li>
+        <section>
+            <h1 class="titulo">Habilidades</h1>
 
-                  <div class="content">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      FRONT-END
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">HTML - 50%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                            </div>
+                        </div>
 
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">CSS - 40%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                            </div>
+                        </div>
 
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">JavaScript - 1%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      BACK-END
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Ainda não tenho conhecimentos nesta área</strong>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        UI&UX DESIGN
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">Photoshop - 50%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                            </div>
+                        </div>
 
-              <li>
-
-                  <div class="content">
-
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
-
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">Adobe XD - 40%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          OUTROS
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="modal-body">
+                                
+                            <p class="nomes_linhas">Python - 50%</p>
+                
+                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-              </li>
+            </div>
+        </section>
 
-              <li>
+        <section>
+            <h1 class="titulo">Certificados</h1>
+            <p>
+                Gostaria de compartilhar com vocês os meus certificados, que comprovam as habilidades e conhecimentos que adquiri ao longo da minha jornada profissional. Essas conquistas refletem meu compromisso com o aprendizado contínuo e com a qualidade no trabalho que realizo.
+            </p>
+            
+            <h2 class="h2">INCLUSIVIDADE</h2>
+            <p>
+                Tenho um certificado em inclusividade, que comprova minha capacitação para promover ambientes mais diversos e acessíveis.
+            </p>
 
-                  <div class="content">
+            <h2 class="h2">EDUCAÇÃO FINANCEIRA</h2>
+            <p>
+                Possuo um certificado em Educação Financeira, que valida meu conhecimento em gestão e planejamento financeiro.            
+            </p>
 
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
+            <h2 class="h2">PROCESSO DE JULGAMENTO E TOMADA DE DECISÕES RESPONSÁVEIS</h2>
+            <p>
+                Tenho um certificado em Processo de Julgamento e Tomada de Decisões Responsáveis, que atesta minha habilidade em fazer escolhas éticas e informadas.
+            </p>
 
+        </section>
+
+        <section>
+
+            <h1 class="titulo">Portifólio</h1>
+
+            <p>
+                Confira alguns projetos que ja realizei!
+            </p>
+
+            <div class="card mb-3">
+                <img src="img/marvel.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meu primeiro site</h5>
+                  <p class="card-text">Este foi o meu primeiro site, foi feito utilizando HTML e CSS</p>
+                  <p class="card-text"><small class="text-body-secondary">Última atualização: 6 de Agosto de 2024</small></p>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <img src="img/diver.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Site sobre divertidamente</h5>
+                  <p class="card-text">Um site feito para falar sobre o filme Divertidamente</p>
+                  <p class="card-text"><small class="text-body-secondary">Última atualização: Agosto de 2024</small></p>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <img src="img/ari.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Montagens utilizando Photoshop</h5>
+                </div>
+              </div>
+            
+        </section>
+        <section>
+
+            <h1 class="titulo">Contato</h1>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/Design sem nome (7).png" class="img-fluid rounded-start" alt="...">
                   </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">E-mail:</p>
+                      <p class="card-text"><small class="text-body-secondary">byanca.lourenco2@gmail.com</small></p>
+                    </div>
                   </div>
-              </li>
+                </div>
+              </div>
 
-              <li>
-
-                  <div class="content">
-
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
-
-                  </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
-                  </div>
-              </li>
-
-              <li>
-
-                  <div class="content">
-
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
-
-                  </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
-                  </div>
-              </li>
-
-              <li>
-
-                  <div class="content">
-
-                      <h3>O que é lorem?</h3>
-                      <p>
-                          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                      </p> 
-
-                  </div>
-                  <div class="time">
-                      <h4>janeiro 2020</h4>
-                  </div>
-              </li>
-              <div style="clear: both;"></div>
-          </ul>
-      </div>
-
-        
-
-      </sections>
-
-      <section class="skills">
-
-        <h1 class="titulo">Habilidades</h1>
-
-
-        <!-- <h1 class="titulo">Habilidades</h1>
-
-        <h1 class="subtitulo">Front-end</h1>
-
-        <p class="nomes_linhas">HTML - 50%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-        </div>
-
-        <p class="nomes_linhas">CSS - 40%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
-        </div>
-
-        <p class="nomes_linhas">Javascript - 1%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
-        </div>
-
-        <h1 class="subtitulo">UI & UX Design</h1>
-
-        <p class="nomes_linhas">Photoshop - 50%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-        </div>
-
-        <p class="nomes_linhas">Adobe XD - 40%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
-        </div>
-
-        <h1 class="subtitulo">Outros</h1>
-
-        <p class="nomes_linhas">Python - 60%</p>
-
-        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"></div>
-        </div> -->
-
-
-      </section>
-
-      <section class="servicos">
-
-      </section>
-
-      <section class="portifolio">
-
-      </section>
-
-      <section class="contato">
-        
-      </section>
-
+        </section>
     </main>
 
-    <footer>
-      Byanca
+    <footer class="foo">
+
+        <p>Byanca Lourenço Souza</p>
+
     </footer>
     
     <script src="js\bootstrap.bundle.js"></script>
   </body>
 </html>
+
+
+<!-- <div class="card">
+    <div class="card-header">
+        BACK-END
+    </div>
+    <div class="card-body">
+        <p class="card-text">O back-end é a parte do sistema responsável pelo processamento de dados e funcionamento interno, envolvendo servidores, bancos de dados e APIs.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Veja minhas habilidades!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Minhas habilidades com Back-End</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <p class="nomes_linhas">HTML - 50%</p>
+                
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                        </div>
+
+                        <p class="nomes_linhas">CSS - 40%</p>
+                
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                        </div>
+
+                        <p class="nomes_linhas">Javascript - 1%</p>
+                
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
+                        </div>
+                
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
