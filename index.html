@@ -13,33 +13,44 @@
   <body>
 
     <header>
-
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#sobre">Sobre mim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Qualificações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Habilidades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Certificados</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Portifólio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Contato</a>
-        </li>
-      </ul>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <span class="navbar-text">
+              <div class="navbar-text collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Qualificações</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Certificados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portifólio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+          </div>
+        </nav>
 
     </header>
 
     <main>
 
-        <section>
+        <section class="primeira">
             <h1 class="titulo_ola">Olá, eu sou a Byanca Lourenço</h1>
             <p class="bem_vindo"><span>Bem vindo(a) ao meu portifólio!</span></p>
             <img class="img1" src="img/img1.png" alt="">
@@ -106,104 +117,7 @@
         <section>
             <h1 class="titulo">Habilidades</h1>
 
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      FRONT-END
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">HTML - 50%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-                            </div>
-                        </div>
 
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">CSS - 40%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
-                            </div>
-                        </div>
-
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">JavaScript - 1%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      BACK-END
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>Ainda não tenho conhecimentos nesta área</strong>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        UI&UX DESIGN
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">Photoshop - 50%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-                            </div>
-                        </div>
-
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">Adobe XD - 40%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          OUTROS
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <div class="modal-body">
-                                
-                            <p class="nomes_linhas">Python - 50%</p>
-                
-                            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
         </section>
 
         <section>
