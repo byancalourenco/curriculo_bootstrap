@@ -2,56 +2,62 @@ body{
     background-color: #ffffff;
     font-family: "SUSE", sans-serif;}
 
+/* MENU */
 
-
-    
-.nav-item > .nav-link:hover{
-    color: rgb(98, 190, 160);
-    transition: 0.8s;
-}
-    
-.caixaInfo{
-    list-style: none;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-    
-.caixaInfo > li{
-    margin-top: 7%;
-}
-    
-.navbar > .container{
-    position: relative;
-    width: 70%;
-    top: -38%;
-    margin-top: -2.3%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: center; 
-}   
-
-.navbar-text{
-    margin-left: 440px;
-}
-
-nav{
+header {
     background-color: #ffffff;
 }
-
-.nav-item{
-    margin-right: 10px;
-    font-size: 18px;
+    
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    margin-left: 500px;
+}
+    
+   
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+    
+.nav-list ul {
+    display: flex;
+     justify-content: center;
+     list-style: none;
+}
+    
+.nav-item {
+    margin: 0 15px;
+}
+    
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #000000;
+    font-weight: 400;
 }
  
+.nav-link:hover {
+    color: #62bea0;
+}
+
+    
+.mobile-menu-icon {
+    display: none;
+}
+    
+.mobile-menu {
+    display: none;
+}
+    
+/* PRIMEIRA */
+    
+
 .titulo_ola{
     font-size: 70px;
     text-align: center;
     margin-top: 70px;
-}
-
-.primeira{
-    margin-top: 150px;
 }
 
 .bem_vindo{
@@ -59,9 +65,6 @@ nav{
     text-align: center;
 }
 
-.img1{
-    margin-left: 500px;
-}
 
 .titulo{
     font-size: 40px;
@@ -76,7 +79,9 @@ p{
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
-} 
+}
+
+/* TIMELINE */
 
 .accordion{
     margin-left: 100px;
@@ -109,7 +114,6 @@ p{
     position: relative;
     margin: 50px auto;
     padding: 40px 0;
-    width: 1000px;
     box-sizing: border-box;
 } 
 
@@ -224,12 +228,11 @@ span{
 
 
 .progress{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .nomes_linhas{
-    margin-left: -950px;
     margin-top: 50px;
     font-size: 15px;
 }
@@ -237,6 +240,9 @@ span{
 .accordion-button{
     color: black;
 }
+
+
+
 
 .h2{
     font-size: 20px;
@@ -260,3 +266,70 @@ span{
     background-color: #62bea0;
 }
 
+
+@media screen and (max-width: 799px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+         display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+        
+    .open {
+        display: block;
+    }
+
+    .titulo_ola{
+        font-size: 50px;
+    }
+
+    .img1{
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .nomes_linhas{
+        font-size: 13px;
+        margin-left: -100px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .img1{
+        margin-left: 400px;
+    }
+
+    .timeline{
+        width: 1000px;
+    }
+
+    .nomes_linhas{
+        margin-left: -950px;
+    }
+    
+}
