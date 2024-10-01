@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
 
@@ -16,11 +20,11 @@
       <nav class="nav-bar">
           <div class="nav-list">
               <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Qualificações</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portifólio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#quali" class="nav-link">Qualificações</a></li>
+                <li class="nav-item"><a href="#habi" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#porti" class="nav-link">Portifólio</a></li>
+                <li class="nav-item"><a href="#conta" class="nav-link">Contato</a></li>
               </ul>
           </div>
 
@@ -31,11 +35,11 @@
       </nav>
       <div class="mobile-menu">
           <ul>
-              <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Qualificações</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Habilidades</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Portifólio</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+              <li class="nav-item"><a href="#sobre" class="nav-link">Sobre mim</a></li>
+              <li class="nav-item"><a href="#quali" class="nav-link">Qualificações</a></li>
+              <li class="nav-item"><a href="#habi" class="nav-link">Habilidades</a></li>
+              <li class="nav-item"><a href="#porti" class="nav-link">Portifólio</a></li>
+              <li class="nav-item"><a href="#conta" class="nav-link">Contato</a></li>
           </ul>
 
       </div>
@@ -49,7 +53,7 @@
             <img class="img1" src="img/img1.png" alt="">
         </section>
 
-        <section>
+        <section id="sobre">
             <h1 class="titulo">Sobre mim</h1>
 
             
@@ -66,7 +70,7 @@
             </p>
         </section>
 
-        <section>
+        <section id="quali">
             <h1 class="titulo">Qualificações</h1>
 
             <div class="timeline">
@@ -107,7 +111,7 @@
 
         </section>
 
-        <section>
+        <section id="habi">
             <h1 class="titulo">Habilidades</h1>
 
             <p class="nomes_linhas"><strong>HTML</strong> - 50%</p>
@@ -147,30 +151,7 @@
             </div>
         </section>
 
-        <section>
-            <h1 class="titulo">Certificados</h1>
-            <p>
-                Gostaria de compartilhar com vocês os meus certificados, que comprovam as habilidades e conhecimentos que adquiri ao longo da minha jornada profissional. Essas conquistas refletem meu compromisso com o aprendizado contínuo e com a qualidade no trabalho que realizo.
-            </p>
-            
-            <h2 class="h2">INCLUSIVIDADE</h2>
-            <p>
-                Tenho um certificado em inclusividade, que comprova minha capacitação para promover ambientes mais diversos e acessíveis.
-            </p>
-
-            <h2 class="h2">EDUCAÇÃO FINANCEIRA</h2>
-            <p>
-                Possuo um certificado em Educação Financeira, que valida meu conhecimento em gestão e planejamento financeiro.            
-            </p>
-
-            <h2 class="h2">PROCESSO DE JULGAMENTO E TOMADA DE DECISÕES RESPONSÁVEIS</h2>
-            <p>
-                Tenho um certificado em Processo de Julgamento e Tomada de Decisões Responsáveis, que atesta minha habilidade em fazer escolhas éticas e informadas.
-            </p>
-
-        </section>
-
-        <section>
+        <section id="porti">
 
             <h1 class="titulo">Portifólio</h1>
 
@@ -178,111 +159,111 @@
                 Confira alguns projetos que ja realizei!
             </p>
 
-            <div class="card mb-3">
-                <img src="img/marvel.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Meu primeiro site</h5>
-                  <p class="card-text">Este foi o meu primeiro site, foi feito utilizando HTML e CSS</p>
-                  <p class="card-text"><small class="text-body-secondary">Última atualização: 6 de Agosto de 2024</small></p>
-                </div>
-              </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a target="_blank" href="https://byancalourenco.github.io/meuprimeirosite"><img src="img/marvel.png" class="img-fluid rounded-start"  alt=""></a>
 
-              <div class="card mb-3">
-                <img src="img/diver.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Site sobre divertidamente</h5>
-                  <p class="card-text">Um site feito para falar sobre o filme Divertidamente</p>
-                  <p class="card-text"><small class="text-body-secondary">Última atualização: Agosto de 2024</small></p>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text"><strong> Meu primeiro site</strong></p>
+                    <p class="card-text">Meu site utilizando HTML e CSS, sobre a Marvel</p>
+                    <p class="card-text">Última atualização: Agosto de 2024</p>
+                    <p class="card-text"><small class="text-body-secondary">Clique na imagem para vizualizar!</small></p>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="img/ari.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Montagens utilizando Photoshop</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a target="_blank" href="https://byancalourenco.github.io/divertidamente/"><img src="img/divertidamente.png" class="img-fluid rounded-start"  alt=""></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Site Divertidamente</strong></p>
+                    <p class="card-text">Site sobre Divertidamente, utilizando HTML e CSS</p>
+                    <p class="card-text">Última atualização: Agosto de 2024</p>
+                    <p class="card-text"><small class="text-body-secondary">Clique na imagem para vizualizar!</small></p>
+                  </div>
                 </div>
               </div>
-            
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a target="_blank" href="img/2d e logos - adobe xd.png"><img src="img/simpsons.png" class="img-fluid rounded-start"  alt=""></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Desenhos Adobe XD</strong></p>
+                    <p class="card-text">Imagens criadas através da ferramenta Adobe XD</p>
+                    <p class="card-text"><small class="text-body-secondary">Clique na imagem para vizualizar algumas artes!</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
         </section>
-        <section>
+        <section id="conta"> 
 
             <h1 class="titulo">Contato</h1>
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/Design sem nome (7).png" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <p class="card-text">E-mail:</p>
-                      <p class="card-text"><small class="text-body-secondary">byanca.lourenco2@gmail.com</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <p> 
+              Estou sempre em busca de novas oportunidades para expandir meu conhecimento e colaborar em projetos inovadores. 
+            </p>
+
+            <figure>
+
+              <img class="direita" src="img/img3.png" alt="..."> 
+    
+              </figure>
+
+            <p>
+              Se você deseja discutir uma proposta, tirar dúvidas ou explorar possibilidades de trabalho em conjunto, estou à disposição para uma conversa. Aqui estão alguns meios de contato:
+            </p>
+
+          
+
+           <p><strong>E-mail:</strong> byanca.lourenco2@gmail.com</p>
+           <p><strong>Linkedin:</strong> ---------------</p>
+           <p><strong>GitHub:</strong> byancalourenco</p>
+         
+          <p>
+            Fique à vontade para me contatar. Será um prazer conversar com você! 
+          </p>
 
         </section>
     </main>
 
-    <footer class="foo">
-
-        <p>Byanca Lourenço Souza</p>
-
-    </footer>
-    
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <!-- Informações de Contato -->
+            <div class="col-md-4">
+              <h5>Entre em Contato</h5>
+              <p><i class="fas fa-envelope"></i> byanca.lourenco2@gmail.com</p>
+            </div>
+            
+            <!-- Redes Sociais -->
+            <div class="col-md-4 text-center">
+              <h5>Redes Sociais</h5>
+              <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/byancalourenco" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            
+            <!-- Direitos Autorais -->
+            <div class="col-md-4 text-md-right">
+              <h5>Sobre</h5>
+              <p>© 2024 Byanca Lourenço Souza. Todos os direitos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>  
     <script src="js\bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
-
-
-<!-- <div class="card">
-    <div class="card-header">
-        BACK-END
-    </div>
-    <div class="card-body">
-        <p class="card-text">O back-end é a parte do sistema responsável pelo processamento de dados e funcionamento interno, envolvendo servidores, bancos de dados e APIs.</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Veja minhas habilidades!
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Minhas habilidades com Back-End</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        
-                        <p class="nomes_linhas">HTML - 50%</p>
-                
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
-                        </div>
-
-                        <p class="nomes_linhas">CSS - 40%</p>
-                
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
-                        </div>
-
-                        <p class="nomes_linhas">Javascript - 1%</p>
-                
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
-                        </div>
-                
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
-</div> -->
-
