@@ -258,18 +258,10 @@ span{
 
 /* PORTIFOLIO */
 
-.card{
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 20px;
+.row{
+    display: flex;
+    justify-content: space-between;
 }
-
-.direita{
-    float:right;
-    width: 15%;
-    margin-right: 5%;
-}
-
 /* CONTATO */
 
 .conta{
@@ -383,6 +375,9 @@ span{
         font-size: 18px;
     }
 
+    .row{
+        margin: auto;
+    }
     
 }
 
