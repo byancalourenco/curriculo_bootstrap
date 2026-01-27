@@ -1,8 +1,3 @@
-# Meu currículo com bootstrap ✨
-
-Bem-vindo(a) ao **meu currículo** utilizando Bootstrap! 
-
-## Acesse o site! 👇
-
+# Currículo com bootstrap
 https://byancalourenco.github.io/curriculo_bootstrap
  
